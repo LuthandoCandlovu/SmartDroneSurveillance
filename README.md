@@ -1,49 +1,46 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3d62,100:00d4ff&height=200&section=header&text=SkyWatch%20AI&fontSize=60&fontColor=00d4ff&fontAlignY=38&desc=Smart%20Drone%20Surveillance%20System&descAlignY=58&descColor=ffffff&animation=fadeIn" width="100%"/>
-
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=AI-Powered+Real-Time+Surveillance;YOLOv8+Human+Detection+%F0%9F%91%81%EF%B8%8F;Live+Heatmap+%2B+Intrusion+Alerts+%F0%9F%9A%A8;GPS+Drone+Tracking+%F0%9F%9B%B8;Web+Dashboard+%7C+Flask+%7C+OpenCV" alt="Typing SVG" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:030810,30:0a2540,60:0a3d62,100:00d4ff&height=280&section=header&text=SkyWatch%20AI&fontSize=80&fontColor=00d4ff&fontAlignY=42&desc=◈%20Smart%20Drone%20Surveillance%20System%20◈&descAlignY=62&descColor=a0d8ef&animation=fadeIn&stroke=00d4ff&strokeWidth=1" width="100%"/>
 
 <br/>
 
-<!-- Badges Row 1 -->
-[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-FF6B35?style=for-the-badge&logo=pytorch&logoColor=white)](https://ultralytics.com)
-[![Flask](https://img.shields.io/badge/Flask-Web%20App-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
-[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org)
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&pause=1200&color=00D4FF&center=true&vCenter=true&width=750&lines=⚡+AI-Powered+Real-Time+Surveillance;🎯+YOLOv8+Human+Detection+%7C+94%25+Accuracy;🌡️+Live+Heatmap+Generation+%2B+Intrusion+Alerts;🛸+DJI+Tello+Drone+Integration;📡+Full+HD+Streaming+%7C+Flask+%7C+OpenCV+%7C+30+FPS" alt="Typing SVG"/>
+</a>
 
-<!-- Badges Row 2 -->
-[![License](https://img.shields.io/badge/License-MIT-00FF9D?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-00d4ff?style=for-the-badge&logo=statuspage&logoColor=white)]()
-[![DJI Tello](https://img.shields.io/badge/DJI%20Tello-Supported-FFD700?style=for-the-badge&logo=dji&logoColor=black)]()
-[![Stars](https://img.shields.io/github/stars/?style=for-the-badge&color=ffd700)]()
+<br/><br/>
+
+<!-- Status badges -->
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-00ff9d?style=for-the-badge&labelColor=030810&logo=statuspage&logoColor=00ff9d"/>
+<img src="https://img.shields.io/badge/PYTHON-3.8+-3776AB?style=for-the-badge&labelColor=030810&logo=python&logoColor=3776AB"/>
+<img src="https://img.shields.io/badge/YOLOv8-Ultralytics-FF6B35?style=for-the-badge&labelColor=030810&logo=pytorch&logoColor=FF6B35"/>
+<img src="https://img.shields.io/badge/FLASK-Web%20Server-00d4ff?style=for-the-badge&labelColor=030810&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&labelColor=030810&logo=opencv&logoColor=5C3EE8"/>
+<img src="https://img.shields.io/badge/LICENSE-MIT-00FF9D?style=for-the-badge&labelColor=030810"/>
+<img src="https://img.shields.io/badge/DJI%20TELLO-Supported-FFD700?style=for-the-badge&labelColor=030810&logo=dji&logoColor=FFD700"/>
+
+<br/><br/>
+
+<!-- Animated metrics strip -->
+<img src="https://img.shields.io/badge/Detection%20Accuracy-94%25-00d4ff?style=flat-square&labelColor=0a2540"/>
+<img src="https://img.shields.io/badge/Stream%20Speed-30%20FPS-00ff9d?style=flat-square&labelColor=0a2540"/>
+<img src="https://img.shields.io/badge/Resolution-Full%20HD-a0d8ef?style=flat-square&labelColor=0a2540"/>
+<img src="https://img.shields.io/badge/Inference-CPU%20%2F%20GPU-ffb347?style=flat-square&labelColor=0a2540"/>
+<img src="https://img.shields.io/badge/Alerts-Real--Time-ff3860?style=flat-square&labelColor=0a2540"/>
 
 </div>
 
 ---
 
-## 🌐 Introduction
-
 <div align="center">
 
-> *"The sky has eyes — and they're powered by AI."*
+## `[ THE SKY HAS EYES — AND THEY'RE POWERED BY AI ]`
 
 </div>
 
-**SkyWatch AI** is a cutting-edge, open-source surveillance platform that fuses **drone hardware**, **computer vision**, and **real-time web analytics** into a single unified system. Whether you're securing a perimeter, monitoring crowd movement, or conducting aerial reconnaissance, SkyWatch AI delivers military-grade awareness in a developer-friendly package.
+**SkyWatch AI** is a production-grade, open-source surveillance platform that fuses **drone hardware**, **real-time computer vision**, and **live web analytics** into one unified system. It combines the raw detection power of **YOLOv8** with a sleek Flask dashboard, Gaussian heatmapping, polygon-based intrusion zones, and full **DJI Tello** drone support — all streaming live to your browser.
 
-Built on top of **YOLOv8** — the state-of-the-art object detection model — the system can:
-- 🎯 **Detect humans** in real time with high accuracy
-- 🔴 **Trigger intrusion alerts** when movement enters restricted zones
-- 🌡️ **Build live heatmaps** of activity over time
-- 🛸 **Interface with DJI Tello drones** for aerial coverage
-- 📊 **Stream everything** to a sleek web dashboard
-
-This isn't just a demo — it's a **production-ready surveillance engine** you can deploy today.
+<br/>
 
 ---
 
@@ -51,11 +48,9 @@ This isn't just a demo — it's a **production-ready surveillance engine** you c
 
 <div align="center">
 
-### See It In Action
+<video src="https://github.com/user-attachments/assets/34591ef6-707a-4cf4-badc-281e15faa82a" controls width="90%" style="border-radius:12px;"></video>
 
-<video src="https://github.com/user-attachments/assets/34591ef6-707a-4cf4-badc-281e15faa82a" controls width="100%" style="border-radius:12px; border: 2px solid #00d4ff;"></video>
-
-> 🎥 *Real-time human detection, intrusion zone triggering, and heatmap generation — all running live.*
+*Real-time detection · Intrusion zone triggering · Heatmap overlay · All running live*
 
 </div>
 
@@ -64,33 +59,48 @@ This isn't just a demo — it's a **production-ready surveillance engine** you c
 ## 📸 Dashboard Preview
 
 <div align="center">
-<img width="100%" alt="SkyWatch AI Dashboard" src="https://github.com/user-attachments/assets/5a7e8ed4-53e8-4523-b1ae-291b3930dd54" style="border-radius:12px;"/>
 
-*Live dashboard showing detection feed, heatmap overlay, GPS telemetry, and alert log*
+<img width="90%" src="https://github.com/user-attachments/assets/5a7e8ed4-53e8-4523-b1ae-291b3930dd54" style="border-radius:12px;"/>
+
+*Live dashboard — detection feed · heatmap overlay · GPS telemetry · alert log*
+
 </div>
 
 ---
 
-## ✨ Features
+## ✨ Feature Matrix
 
 <div align="center">
 
-| 🔍 Detection | 🚨 Alerts | 🗺️ Mapping | 🛸 Drone |
-|:---:|:---:|:---:|:---:|
-| YOLOv8 Human Detection | Polygon Intrusion Zones | Live Movement Heatmap | DJI Tello Integration |
-| Bounding Boxes | Real-time Alert Log | GPS Coordinate Tracking | Auto-Detection via WiFi |
-| Confidence Scores | Visual Zone Highlighting | Simulated Circular Flight | Fallback to Webcam |
-| Multi-person Tracking | Timestamped Events | Path Visualization | Telemetry Dashboard |
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&pause=2000&color=00FF9D&center=true&vCenter=true&width=600&lines=Scanning+feature+modules...;All+systems+operational.;Ready+for+deployment." alt="Feature scan"/>
 
 </div>
 
+<br/>
+
+<div align="center">
+
+|  | 🎯 Detection Engine | 🚨 Alert System | 🗺️ Mapping | 🛸 Drone Layer |
+|:---:|:---|:---|:---|:---|
+| **Core** | YOLOv8 Nano/Medium | Polygon Intrusion Zones | Live Gaussian Heatmap | DJI Tello SDK |
+| **Output** | Bounding Boxes + Labels | Real-time Alert Log | GPS Path Visualization | Auto WiFi Detection |
+| **Detail** | Confidence Scores | Visual Zone Flash | Temporal Heat Buildup | Telemetry Dashboard |
+| **Scale** | Multi-person Tracking | Timestamped Events | Simulated Flight Path | Webcam Fallback |
+
+</div>
+
+<br/>
+
 ```
-╔══════════════════════════════════════════════════════════════╗
-║  🎯 DETECTION      ████████████████████████████░░  94% acc  ║
-║  ⚡ SPEED          ████████████████████░░░░░░░░░░  30 FPS   ║
-║  📡 RANGE          ████████████████████████░░░░░░  Full HD  ║
-║  🔋 EFFICIENCY     ███████████████████████████░░░  CPU/GPU  ║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════╗
+║  ◈ SYSTEM PERFORMANCE OVERVIEW                                       ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  🎯  DETECTION ACCURACY   ████████████████████████████░░  94%       ║
+║  ⚡  STREAM SPEED         ████████████████████░░░░░░░░░░  30 FPS   ║
+║  📡  RESOLUTION COVERAGE  ████████████████████████░░░░░░  Full HD   ║
+║  🔋  CPU/GPU EFFICIENCY   ███████████████████████████░░░  Adaptive  ║
+║  🌡️  HEATMAP GRANULARITY  ██████████████████████████░░░░  Gaussian  ║
+╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -98,49 +108,50 @@ This isn't just a demo — it's a **production-ready surveillance engine** you c
 ## 🏗️ System Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                     SkyWatch AI — Architecture                   │
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        SkyWatch AI — System Architecture                     │
+└─────────────────────────────────────────────────────────────────────────────┘
 
-  ┌─────────────┐      ┌──────────────────┐      ┌─────────────┐
-  │  📷 Camera   │      │  🛸 DJI Tello    │      │  🌐 Browser  │
-  │  (Webcam)   │      │  (WiFi Drone)    │      │  Dashboard  │
-  └──────┬──────┘      └────────┬─────────┘      └──────┬──────┘
-         │                      │                        │
-         ▼                      ▼                        ▲
-  ┌─────────────────────────────────────────┐           │
-  │           VIDEO INPUT LAYER             │           │
-  │   cv2.VideoCapture / djitellopy         │           │
-  └─────────────────────┬───────────────────┘           │
-                        │                               │
-                        ▼                               │
-  ┌─────────────────────────────────────────┐           │
-  │         🧠 AI DETECTION ENGINE          │           │
-  │   YOLOv8 → Bounding Boxes → Centroids   │           │
-  │   Confidence Filtering → Person Class   │           │
-  └──────┬──────────────┬───────────────────┘           │
-         │              │                               │
-         ▼              ▼                               │
-  ┌──────────┐   ┌──────────────┐                       │
-  │ 🌡️ Heatmap│   │ 🔴 Intrusion │                       │
-  │  Engine  │   │ Zone Checker │                       │
-  │(Gaussian)│   │ (Polygon HIT)│                       │
-  └────┬─────┘   └──────┬───────┘                       │
-       │                │                               │
-       ▼                ▼                               │
-  ┌─────────────────────────────────────────┐           │
-  │          🗄️ STATE & ALERT MANAGER        │           │
-  │   Alert Log · Timestamps · Zone Status  │           │
-  └──────────────────────┬──────────────────┘           │
-                         │                              │
-                         ▼                              │
-  ┌─────────────────────────────────────────┐           │
-  │          🌐 FLASK WEB SERVER             │           │
-  │   /video_feed (MJPEG Stream)            │           │
-  │   /heatmap    (PNG Overlay)             ├───────────┘
-  │   /alerts     (JSON API)               │
-  │   /telemetry  (GPS + Battery)          │
-  └─────────────────────────────────────────┘
+         ┌──────────────┐        ┌──────────────────┐        ┌──────────────┐
+         │  📷  Webcam   │        │  🛸  DJI Tello   │        │  🌐  Browser  │
+         │   USB / IP   │        │   WiFi · UDP     │        │  Dashboard  │
+         └──────┬───────┘        └────────┬─────────┘        └──────┬───────┘
+                │                         │                          │
+                ▼                         ▼                          ▲
+         ┌──────────────────────────────────────────┐               │
+         │            VIDEO INPUT LAYER              │               │
+         │    cv2.VideoCapture  /  djitellopy SDK    │               │
+         └──────────────────────┬───────────────────┘               │
+                                │                                    │
+                                ▼                                    │
+         ┌──────────────────────────────────────────┐               │
+         │          🧠  AI DETECTION ENGINE           │               │
+         │    YOLOv8 → Bounding Boxes → Centroids    │               │
+         │    class=person · conf > 0.45 filter      │               │
+         └─────────────┬────────────────┬────────────┘               │
+                       │                │                             │
+                       ▼                ▼                             │
+               ┌───────────┐    ┌──────────────────┐                 │
+               │ 🌡️ Heatmap │    │  🔴 Intrusion    │                 │
+               │  Engine   │    │  Zone Checker    │                 │
+               │ (Gaussian)│    │  Polygon HIT?    │                 │
+               └─────┬─────┘    └────────┬─────────┘                 │
+                     │                   │                            │
+                     └─────────┬─────────┘                            │
+                               ▼                                      │
+         ┌──────────────────────────────────────────┐                 │
+         │        🗄️  STATE & ALERT MANAGER           │                 │
+         │   Alert Log · Timestamps · Zone Flags    │                 │
+         └──────────────────────┬───────────────────┘                 │
+                                │                                     │
+                                ▼                                     │
+         ┌──────────────────────────────────────────┐                 │
+         │           🌐  FLASK WEB SERVER             │                 │
+         │  /video_feed  →  MJPEG Stream            │                 │
+         │  /heatmap     →  PNG Overlay             ├─────────────────┘
+         │  /alerts      →  JSON API               │
+         │  /telemetry   →  GPS + Battery          │
+         └──────────────────────────────────────────┘
 ```
 
 ---
@@ -148,94 +159,70 @@ This isn't just a demo — it's a **production-ready surveillance engine** you c
 ## 🔄 Detection Pipeline
 
 ```
-Raw Frame
-    │
-    ▼
-┌───────────────────┐
-│  Frame Capture    │  ← cv2 / DJI SDK
-└────────┬──────────┘
-         │
-         ▼
-┌───────────────────┐
-│  YOLOv8 Inference │  ← ultralytics model
-│  class=person     │
-│  conf > 0.45      │
-└────────┬──────────┘
-         │
-    ┌────┴────┐
-    ▼         ▼
-┌────────┐  ┌─────────────────┐
-│ Draw   │  │ Centroid Point  │
-│ BBox + │  │ → Heatmap array │
-│ Label  │  │ → Zone polygon  │
-└────────┘  │   intersection  │
-            └────────┬────────┘
-                     │
-              ┌──────┴──────┐
-              ▼             ▼
-         ✅ SAFE        🔴 INTRUDER
-         Zone OK        Alert fired
-                        Log entry
-                        Zone flashes RED
-```
-
----
-
-## 📦 Requirements
-
-```txt
-ultralytics>=8.0.0       # YOLOv8 detection engine
-flask>=2.3.0             # Web server & streaming
-opencv-python>=4.8.0     # Video capture & processing
-numpy>=1.24.0            # Array math & heatmap
-scipy>=1.11.0            # Gaussian blur for heatmap
-djitellopy>=2.4.0        # DJI Tello drone SDK (optional)
-Pillow>=10.0.0           # Image handling
+ ┌─────────────┐     ┌────────────────────┐     ┌──────────────────────┐
+ │  RAW FRAME  │────▶│   YOLOv8 INFERENCE  │────▶│   CENTROID EXTRACT   │
+ │  cv2 / DJI  │     │  class = person     │     │  (cx, cy) per bbox   │
+ └─────────────┘     │  conf > 0.45        │     └──────────┬───────────┘
+                     └────────────────────┘                │
+                                                    ┌───────┴────────┐
+                                                    ▼                ▼
+                                           ┌─────────────┐  ┌──────────────────┐
+                                           │  🌡️ Heatmap  │  │ 🔴 Zone Polygon  │
+                                           │  Gaussian   │  │  Intersection    │
+                                           │  Accumulate │  │  Check (PiP)     │
+                                           └─────────────┘  └────────┬─────────┘
+                                                                      │
+                                                            ┌─────────┴──────────┐
+                                                            ▼                    ▼
+                                                       ✅  SAFE            🔴  BREACH
+                                                       No action       Alert fired
+                                                                        Timestamp log
+                                                                        Zone flashes RED
+                                                                        Dashboard push
 ```
 
 ---
 
 ## 🚀 Quick Start
 
-### 1️⃣ Clone the Repository
+### 1 · Clone
 
 ```bash
 git clone https://github.com/yourusername/skywatch-ai.git
 cd skywatch-ai
 ```
 
-### 2️⃣ Create Virtual Environment
+### 2 · Environment
 
 ```bash
-# Create environment
 python -m venv venv
 
-# Activate — Windows
+# Windows
 venv\Scripts\activate
 
-# Activate — Linux / macOS
+# Linux / macOS
 source venv/bin/activate
 ```
 
-### 3️⃣ Install Dependencies
+### 3 · Install
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Launch the System
+### 4 · Launch
 
 ```bash
 python app.py
 ```
 
-### 5️⃣ Open Dashboard
+### 5 · Open Dashboard
 
 ```
 🌐  http://localhost:5000
 ```
 
-> **That's it.** Stand in front of your camera — detection begins immediately.
+> Stand in front of your camera — detection starts immediately. No config needed.
 
 ---
 
@@ -243,42 +230,46 @@ python app.py
 
 <details>
 <summary><b>🧍 Human Detection</b></summary>
+<br/>
 
-- Stand in front of your webcam or Tello camera feed
-- A **green bounding box** appears around each detected person
-- Confidence score is shown above each box
-- Multiple people are tracked simultaneously
+- Stand in front of your webcam or Tello feed
+- A **green bounding box** wraps each detected person
+- Confidence score shown above each box in real-time
+- Multiple simultaneous persons tracked independently
 
 </details>
 
 <details>
 <summary><b>🔴 Intrusion Zone Alerts</b></summary>
+<br/>
 
-- A **blue polygon zone** is pre-defined in the frame
-- When a person's centroid enters the zone → **RED alert fires**
-- Alert is logged with timestamp in the sidebar
-- Zone flashes red to signal breach
+- A **blue polygon** is pre-defined as a restricted zone on the frame
+- When a centroid enters the zone → **RED alert fires immediately**
+- Alert logged with timestamp in the dashboard sidebar
+- Zone flashes red to confirm the breach visually
 
 </details>
 
 <details>
 <summary><b>🌡️ Live Heatmap</b></summary>
+<br/>
 
-- The heatmap builds automatically as people move
-- Hot zones (red/yellow) = frequent movement
-- Cool zones (blue) = rare movement
-- Overlaid semi-transparently on the live feed
+- Heatmap builds automatically as people move through the frame
+- **Red / yellow zones** = high-frequency movement areas
+- **Blue / cool zones** = rare or no movement
+- Overlaid semi-transparently on the live video feed
 
 </details>
 
 <details>
 <summary><b>🛸 Drone Mode (DJI Tello)</b></summary>
+<br/>
 
-- Connect your PC to **Tello's WiFi** before launching
-- App auto-detects the drone on startup
-- Live telemetry shown: battery, height, speed
-- GPS panel shows real flight path
-- Falls back to webcam if no drone found
+- Connect your machine to **Tello's WiFi network** before launching
+- App auto-detects the drone on startup via UDP
+- Live telemetry: battery %, height, speed
+- GPS panel shows real flight path on the dashboard
+- Falls back gracefully to webcam if no drone is detected
 
 </details>
 
@@ -287,29 +278,43 @@ python app.py
 ## 🛸 Drone Support
 
 ```
-          ████████████
-        ██  TELLO  ██
-      ████████████████
-     ██              ██
-    ██   ◉        ◉  ██    ← 4 rotors
-     ██              ██
-      ████████████████
-              │
-              │  WiFi UDP
-              │  192.168.10.1
-              ▼
-    ┌──────────────────┐
-    │  djitellopy SDK  │
-    │  takeoff / land  │
-    │  get_battery()   │
-    │  get_height()    │
-    └──────────────────┘
+               ┌────────────────────────┐
+               │   ██ DJI TELLO ██      │
+               │  ◉──────────────◉     │
+               │  │              │      │
+               │  ◉──────────────◉     │
+               └──────────┬─────────────┘
+                          │
+                  WiFi UDP ·  192.168.10.1
+                          │
+               ┌──────────▼─────────────┐
+               │    djitellopy SDK      │
+               │  .takeoff()            │
+               │  .land()               │
+               │  .get_battery() → %   │
+               │  .get_height()  → cm  │
+               │  .get_frame_read()    │
+               └────────────────────────┘
 ```
 
-| Mode | Input | GPS |
-|------|-------|-----|
-| 🛸 **Drone Mode** | DJI Tello stream | Real telemetry |
-| 💻 **Webcam Mode** | USB / built-in cam | Simulated circular path |
+| Mode | Video Source | GPS Data |
+|:---|:---|:---|
+| 🛸 **Drone Mode** | DJI Tello UDP stream | Real flight telemetry |
+| 💻 **Webcam Mode** | USB / built-in camera | Simulated circular path |
+
+---
+
+## 📦 Requirements
+
+```txt
+ultralytics>=8.0.0       # YOLOv8 detection engine
+flask>=2.3.0             # Web server & MJPEG streaming
+opencv-python>=4.8.0     # Video capture & frame processing
+numpy>=1.24.0            # Array math & heatmap accumulator
+scipy>=1.11.0            # Gaussian blur for smooth heatmap
+djitellopy>=2.4.0        # DJI Tello drone SDK (optional)
+Pillow>=10.0.0           # Image handling & export
+```
 
 ---
 
@@ -318,23 +323,23 @@ python app.py
 ```
 skywatch-ai/
 │
-├── 📄 app.py                  # Flask app entry point
-├── 📄 detector.py             # YOLOv8 detection logic
-├── 📄 heatmap.py              # Gaussian heatmap engine
-├── 📄 zone_manager.py         # Intrusion zone polygon logic
-├── 📄 drone_controller.py     # DJI Tello / webcam handler
-├── 📄 gps_simulator.py        # Circular flight path sim
-├── 📄 requirements.txt        # Python dependencies
+├── 📄 app.py                   ← Flask app entry point & routes
+├── 📄 detector.py              ← YOLOv8 detection logic
+├── 📄 heatmap.py               ← Gaussian heatmap engine
+├── 📄 zone_manager.py          ← Intrusion zone polygon logic
+├── 📄 drone_controller.py      ← DJI Tello / webcam handler
+├── 📄 gps_simulator.py         ← Circular flight path sim
+├── 📄 requirements.txt         ← Python dependencies
 │
 ├── 📁 templates/
-│   └── 📄 index.html          # Web dashboard UI
+│   └── 📄 index.html           ← Web dashboard UI
 │
 ├── 📁 static/
-│   ├── 📁 css/                # Dashboard styles
-│   └── 📁 js/                 # Live update scripts
+│   ├── 📁 css/                 ← Dashboard styles
+│   └── 📁 js/                  ← Live update scripts
 │
 ├── 📁 models/
-│   └── 📄 yolov8n.pt          # YOLOv8 nano weights
+│   └── 📄 yolov8n.pt           ← YOLOv8 nano weights (auto-downloaded)
 │
 └── 📄 README.md
 ```
@@ -345,13 +350,22 @@ skywatch-ai/
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,flask,pytorch,opencv,js,html,css,github&theme=dark&perline=8"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| Layer | Technology | Role |
+|:---:|:---|:---|
+| 🧠 AI | YOLOv8 (Ultralytics + PyTorch) | Human detection & bounding boxes |
+| 🎥 Vision | OpenCV | Frame capture, drawing, encoding |
+| 🌡️ Analytics | NumPy + SciPy | Heatmap accumulation & Gaussian blur |
+| 🌐 Server | Flask | MJPEG streaming + REST API |
+| 🖥️ Frontend | HTML · CSS · JavaScript | Live dashboard + WebSocket updates |
+| 🛸 Hardware | djitellopy | DJI Tello drone control & telemetry |
 
 </div>
 
@@ -359,38 +373,53 @@ skywatch-ai/
 
 ## 🗺️ Roadmap
 
-- [x] YOLOv8 real-time detection
-- [x] Polygon intrusion zones
-- [x] Gaussian heatmap engine
-- [x] DJI Tello integration
-- [x] Web dashboard with MJPEG stream
-- [x] Alert logging system
-- [ ] 🔜 Multi-camera support
-- [ ] 🔜 Face recognition module
-- [ ] 🔜 Cloud alert push (Telegram / Email)
-- [ ] 🔜 Mobile app dashboard
-- [ ] 🔜 Night vision / IR camera support
-- [ ] 🔜 Object classification beyond persons
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&pause=3000&color=00FF9D&center=true&vCenter=true&width=500&lines=Roadmap+loaded.+Loading+next+milestones..." alt="Roadmap"/>
+
+</div>
+
+<br/>
+
+```
+COMPLETED ──────────────────────────────────────────────────────────────────
+  [✅]  YOLOv8 real-time human detection
+  [✅]  Polygon-based intrusion zone detection
+  [✅]  Gaussian heatmap engine
+  [✅]  DJI Tello drone integration
+  [✅]  MJPEG web dashboard with Flask
+  [✅]  Alert logging system with timestamps
+
+UPCOMING ────────────────────────────────────────────────────────────────────
+  [🔜]  Multi-camera support
+  [🔜]  Face recognition module
+  [🔜]  Cloud push alerts (Telegram / Email)
+  [🔜]  Mobile app dashboard
+  [🔜]  Night vision / IR camera support
+  [🔜]  Object classification beyond persons
+  [🔜]  Database logging (SQLite / PostgreSQL)
+  [🔜]  Docker deployment support
+```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how:
-
 ```bash
-# 1. Fork the repo
-# 2. Create your branch
-git checkout -b feature/awesome-feature
+# 1. Fork the repository
+# 2. Create your feature branch
+git checkout -b feature/your-awesome-feature
 
 # 3. Commit your changes
-git commit -m "Add awesome feature"
+git commit -m "feat: add awesome feature"
 
-# 4. Push and open a PR
-git push origin feature/awesome-feature
+# 4. Push to your branch
+git push origin feature/your-awesome-feature
+
+# 5. Open a Pull Request
 ```
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
+> Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
 
 ---
 
@@ -398,21 +427,29 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
 
 ```
 MIT License — free to use, modify, and distribute.
-See LICENSE file for details.
+Commercial use allowed. Attribution appreciated.
+See LICENSE for full terms.
 ```
 
 ---
 
 <div align="center">
 
-<!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:0a3d62,100:0d1117&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,40:0a3d62,80:030810,100:030810&height=140&section=footer&text=SkyWatch%20AI&fontSize=24&fontColor=00d4ff&fontAlignY=65&desc=Because%20the%20best%20security%20never%20sleeps.&descAlignY=85&descColor=a0d8ef&animation=fadeIn" width="100%"/>
+
+<br/>
 
 **Built with 🤖 AI + ❤️ passion for intelligent systems**
 
-[![GitHub followers](https://img.shields.io/github/followers/?style=social)]()
-[![GitHub stars](https://img.shields.io/github/stars/?style=social)]()
+<br/>
 
-*SkyWatch AI — Because the best security never sleeps.*
+<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Powered%20by-YOLOv8-FF6B35?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamed%20with-Flask-00d4ff?style=flat-square&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/Drones-DJI%20Tello-FFD700?style=flat-square&logo=dji&logoColor=black"/>
+
+<br/><br/>
+
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=yourusername.skywatch-ai&left_color=0a3d62&right_color=00d4ff&left_text=Visitors)
 
 </div>
