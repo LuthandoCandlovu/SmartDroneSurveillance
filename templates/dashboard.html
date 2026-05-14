@@ -1,0 +1,118 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <title>Smart Drone Surveillance Dashboard</title>
+    <meta http-equiv="refresh" content="2;url=/heatmap" />
+    <style>
+      body {
+        font-family: Arial;
+        background: #1e1e2f;
+        color: white;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+      .card {
+        background: #2d2d44;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      video,
+      img {
+        width: 100%;
+        max-width: 640px;
+        border-radius: 8px;
+        border: 2px solid #555;
+      }
+      .alert-box {
+        height: 200px;
+        overflow-y: auto;
+        background: #111;
+        padding: 10px;
+        font-family: monospace;
+        text-align: left;
+      }
+      .alert-item {
+        color: #ff5555;
+        border-bottom: 1px solid #333;
+        padding: 5px;
+      }
+      .gps {
+        font-size: 1.2em;
+        background: #000;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 8px;
+      }
+      button {
+        background: #4caf50;
+        border: none;
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🚁 Smart Drone Surveillance System</h1>
+    <div class="container">
+      <div class="card">
+        <h3>Live Drone Feed (YOLOv8 Detection)</h3>
+        <img src="/video_feed" width="640" height="480" />
+      </div>
+      <div class="card">
+        <h3>Activity Heatmap</h3>
+        <img src="/heatmap" id="heatmapImg" width="640" height="480" />
+        <br /><button
+          onclick="
+            document.getElementById('heatmapImg').src =
+              '/heatmap?t=' + new Date().getTime()
+          "
+        >
+          Refresh Heatmap
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card" style="width: 300px">
+        <h3>GPS Position (Simulated)</h3>
+        <div class="gps" id="gpsData">Loading...</div>
+      </div>
+      <div class="card" style="width: 400px">
+        <h3>Intrusion Alerts</h3>
+        <div class="alert-box" id="alertList">No alerts yet.</div>
+      </div>
+    </div>
+    <script>
+      function updateGPS() {
+          fetch('/gps')
+              .then(res => res.json())
+              .then(data => {
+                  document.getElementById('gpsData').innerHTML = Lat: <br>Lon: ;
+              });
+      }
+      function updateAlerts() {
+          fetch('/alerts')
+              .then(res => res.json())
+              .then(alerts => {
+                  let html = '';
+                  alerts.slice().reverse().forEach(a => {
+                      let timeStr = new Date(a.time * 1000).toLocaleTimeString();
+                      html += <div class="alert-item">[] </div>;
+                  });
+                  document.getElementById('alertList').innerHTML = html || 'No alerts.';
+              });
+      }
+      setInterval(updateGPS, 1000);
+      setInterval(updateAlerts, 2000);
+      updateGPS(); updateAlerts();
+    </script>
+  </body>
+</html>
